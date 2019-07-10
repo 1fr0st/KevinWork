@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="SdI-5y-z89">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="aut0matedh0me" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Welcome to your aut0matic h0me app. " textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ltj-T2-AaH">
+                                <rect key="frame" x="0.0" y="58" width="375" height="48"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="zuf-gS-DWL"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="beta v1.00" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IOk-Nj-VVK">
+                                <rect key="frame" x="0.0" y="111" width="375" height="48"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Click below to start configuration , it's still in beta so a lot of things misses. Remember Kevin" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Zyr-bD-a4Q">
+                                <rect key="frame" x="67" y="223" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qui-wj-nEt">
+                                <rect key="frame" x="117" y="489" width="152" height="30"/>
+                                <state key="normal" title="Start"/>
+                                <connections>
+                                    <segue destination="eeP-bk-GhU" kind="show" id="j18-IR-AYj"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Ltj-T2-AaH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="16f-3x-t1q"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qui-wj-nEt" secondAttribute="trailing" constant="106" id="5sL-aT-ebn"/>
+                            <constraint firstItem="Zyr-bD-a4Q" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="67" id="6nL-1r-Gkd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ltj-T2-AaH" secondAttribute="trailing" id="94T-pA-BdF"/>
+                            <constraint firstItem="qui-wj-nEt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="117" id="CUT-BY-zWQ"/>
+                            <constraint firstItem="IOk-Nj-VVK" firstAttribute="top" secondItem="Ltj-T2-AaH" secondAttribute="bottom" constant="5" id="HX9-TY-UI9"/>
+                            <constraint firstItem="IOk-Nj-VVK" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Ln1-CY-fen"/>
+                            <constraint firstItem="IOk-Nj-VVK" firstAttribute="top" secondItem="Ltj-T2-AaH" secondAttribute="bottom" constant="5" id="Mig-8A-ZyR"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Zyr-bD-a4Q" secondAttribute="trailing" constant="68" id="OFl-8h-Id9"/>
+                            <constraint firstItem="Zyr-bD-a4Q" firstAttribute="top" secondItem="IOk-Nj-VVK" secondAttribute="bottom" constant="64" id="R7d-2c-Z9a"/>
+                            <constraint firstItem="Ltj-T2-AaH" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="38" id="SSe-oo-ApS"/>
+                            <constraint firstItem="qui-wj-nEt" firstAttribute="top" secondItem="Zyr-bD-a4Q" secondAttribute="bottom" constant="138" id="SbC-eS-hae"/>
+                            <constraint firstItem="IOk-Nj-VVK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="UG6-hX-PE8"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="IOk-Nj-VVK" secondAttribute="bottom" constant="508" id="e5R-E5-Vvw"/>
+                            <constraint firstItem="qui-wj-nEt" firstAttribute="top" secondItem="Zyr-bD-a4Q" secondAttribute="bottom" constant="138" id="hAD-hh-Vuq"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="qui-wj-nEt" secondAttribute="bottom" constant="148" id="xYO-Q9-Qft"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-262" y="251"/>
+        </scene>
+        <!--hiPage-->
+        <scene sceneID="unE-eF-5Uw">
+            <objects>
+                <viewController title="hiPage" id="rL7-CZ-BL0" customClass="hiViewController" customModule="aut0matedh0me" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ixK-dt-LRJ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="upK-6H-GYo"/>
+                    </view>
+                    <connections>
+                        <segue destination="SdI-5y-z89" kind="show" identifier="hiToDashboard" id="GpO-A8-iDU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="K8k-JS-hTF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2066" y="-1164"/>
+        </scene>
+        <!--RegisterView-->
+        <scene sceneID="FUk-4C-Ys0">
+            <objects>
+                <viewController title="RegisterView" id="eeP-bk-GhU" customClass="WelcomePageViewController" customModule="aut0matedh0me" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="OsW-ed-qsq">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="pQX-mo-39z"/>
+                    </view>
+                    <connections>
+                        <segue destination="HtQ-RM-vn0" kind="show" identifier="registerToLogin" id="CU7-7H-xN9"/>
+                        <segue destination="rL7-CZ-BL0" kind="show" identifier="registerToHi" id="qeP-MS-jxv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FFZ-ED-0LC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="922" y="-309"/>
+        </scene>
+        <!--LoginView-->
+        <scene sceneID="4RE-NC-nQL">
+            <objects>
+                <viewController title="LoginView" id="HtQ-RM-vn0" customClass="loginViewController" customModule="aut0matedh0me" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vOO-tK-dCf" customClass="loginView">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="F78-qF-DZN"/>
+                    </view>
+                    <connections>
+                        <segue destination="eeP-bk-GhU" kind="show" identifier="loginToRegister" id="To4-ue-HTo"/>
+                        <segue destination="SdI-5y-z89" kind="show" identifier="loginToDashboard" id="kwp-UO-yXX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cHP-W8-9kK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2335" y="-398"/>
+        </scene>
+        <!--giardinoView-->
+        <scene sceneID="yeV-bK-EWg">
+            <objects>
+                <viewController title="giardinoView" id="ztH-ci-MvE" customClass="giardinoViewController" customModule="aut0matedh0me" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dYQ-WZ-fdw">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="cRB-Ws-e8q"/>
+                    </view>
+                    <connections>
+                        <segue destination="SdI-5y-z89" kind="show" identifier="giardinoToDash" id="X45-6k-ox7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lad-rv-H3T" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1657" y="-2133"/>
+        </scene>
+        <!--cameraLettoView-->
+        <scene sceneID="ahT-6B-mpj">
+            <objects>
+                <viewController title="cameraLettoView" id="noa-P9-67V" customClass="cameraLettoViewController" customModule="aut0matedh0me" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="g82-tY-bcE">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="1Ea-VH-okh"/>
+                    </view>
+                    <connections>
+                        <segue destination="SdI-5y-z89" kind="showDetail" identifier="cameraLettoToDash" id="r3r-TV-AkD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7hs-xn-eWd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2636" y="-2133"/>
+        </scene>
+        <!--bagnoView-->
+        <scene sceneID="ayA-QB-NfO">
+            <objects>
+                <viewController title="bagnoView" id="MYg-kx-jgq" customClass="bagnoViewController" customModule="aut0matedh0me" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="noa-oL-fXo">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="ErJ-Dd-BWj"/>
+                    </view>
+                    <connections>
+                        <segue destination="SdI-5y-z89" kind="show" identifier="bagnoToDash" id="TGm-Sa-aiD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PSq-OZ-0WG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3430" y="-2133"/>
+        </scene>
+        <!--cameraOspitiView-->
+        <scene sceneID="N9H-l3-1VO">
+            <objects>
+                <viewController title="cameraOspitiView" id="4u2-4e-puU" customClass="cameraOspitiViewController" customModule="aut0matedh0me" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="49w-fW-pc9">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="IFf-Xa-CMl"/>
+                    </view>
+                    <connections>
+                        <segue destination="SdI-5y-z89" kind="show" identifier="cameraOspitiToDash" id="7cl-bE-luE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ycl-RP-Kkf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4252" y="-2133"/>
+        </scene>
+        <!--corridoioView-->
+        <scene sceneID="VYe-8c-60R">
+            <objects>
+                <viewController title="corridoioView" id="uzl-5r-mdl" customClass="corridoioViewController" customModule="aut0matedh0me" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ERo-qR-FnT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="rAS-l1-7cv"/>
+                    </view>
+                    <connections>
+                        <segue destination="SdI-5y-z89" kind="show" identifier="corridoioToDash" id="ogy-Hy-eOA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="R8F-HA-lKM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5505" y="-2133"/>
+        </scene>
+        <!--salottoView-->
+        <scene sceneID="7Xb-0o-dJc">
+            <objects>
+                <viewController title="salottoView" id="dln-k2-ASV" customClass="salottoViewController" customModule="aut0matedh0me" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vll-ND-1tS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="bCX-Ud-Zhz"/>
+                    </view>
+                    <connections>
+                        <segue destination="SdI-5y-z89" kind="show" identifier="salottoToDash" id="xHU-qQ-4K7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XPx-IB-5eQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5505" y="-1410"/>
+        </scene>
+        <!--cucinaView-->
+        <scene sceneID="PLj-jW-N79">
+            <objects>
+                <viewController title="cucinaView" id="3tW-ON-Ro0" customClass="cucinaViewController" customModule="aut0matedh0me" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="VnW-uL-OAf">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="ivn-lw-h33"/>
+                    </view>
+                    <connections>
+                        <segue destination="SdI-5y-z89" kind="show" identifier="cucinaToDash" id="x3V-AA-dlR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WZA-V1-cJ5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5506" y="-698"/>
+        </scene>
+        <!--dashboardView-->
+        <scene sceneID="syQ-fn-kDM">
+            <objects>
+                <viewController title="dashboardView" id="SdI-5y-z89" customClass="dashboardViewController" customModule="aut0matedh0me" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="VzK-t5-4eZ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mapApp1" translatesAutoresizingMaskIntoConstraints="NO" id="7AB-zL-Xgd">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="glX-iK-AzI">
+                                <rect key="frame" x="39" y="107" width="168" height="145"/>
+                                <state key="normal" title="Camera degli ospiti"/>
+                                <connections>
+                                    <action selector="cameraDegliOspitiButton:" destination="SdI-5y-z89" eventType="touchUpInside" id="lFB-Cp-jfL"/>
+                                    <segue destination="4u2-4e-puU" kind="show" identifier="cameraOspitiToData" id="l8P-ms-oBZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="15o-ux-rYO">
+                                <rect key="frame" x="39" y="347" width="168" height="173"/>
+                                <state key="normal" title="Camera da letto"/>
+                                <connections>
+                                    <action selector="cameraDaLettoButton:" destination="SdI-5y-z89" eventType="touchUpInside" id="9qe-hN-uGW"/>
+                                    <segue destination="noa-P9-67V" kind="show" identifier="cameraLettoToData" id="ivQ-lp-eGR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EU4-hh-EDU">
+                                <rect key="frame" x="33" y="254" width="90" height="85"/>
+                                <state key="normal" title="Bagno"/>
+                                <connections>
+                                    <action selector="bagnoButton:" destination="SdI-5y-z89" eventType="touchUpInside" id="mUX-qR-qmf"/>
+                                    <segue destination="MYg-kx-jgq" kind="show" identifier="bagnoToData" id="y7q-2Y-rlD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0aH-qB-edC">
+                                <rect key="frame" x="215" y="107" width="132" height="99"/>
+                                <state key="normal" title="Cucina"/>
+                                <connections>
+                                    <action selector="cucinaButton:" destination="SdI-5y-z89" eventType="touchUpInside" id="iL4-Fg-7uQ"/>
+                                    <segue destination="3tW-ON-Ro0" kind="show" identifier="cucinaToData" id="8d6-0z-34C"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TD5-8G-C3u">
+                                <rect key="frame" x="215" y="214" width="132" height="222"/>
+                                <state key="normal" title="Salotto"/>
+                                <connections>
+                                    <action selector="SalottoButton:" destination="SdI-5y-z89" eventType="touchUpInside" id="fsy-Tl-58Y"/>
+                                    <segue destination="dln-k2-ASV" kind="show" identifier="salottoToData" id="p3a-pj-DxF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dNd-es-Ga3">
+                                <rect key="frame" x="220" y="449" width="127" height="71"/>
+                                <state key="normal" title="Corridoio"/>
+                                <connections>
+                                    <action selector="CorridoioButton:" destination="SdI-5y-z89" eventType="touchUpInside" id="spD-8Q-KSf"/>
+                                    <segue destination="uzl-5r-mdl" kind="show" identifier="corridoioToData" id="0hd-SI-25c"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LnO-2D-CIp">
+                                <rect key="frame" x="27" y="540" width="320" height="121"/>
+                                <state key="normal" title="Giardino"/>
+                                <connections>
+                                    <action selector="Giardino:" destination="SdI-5y-z89" eventType="touchUpInside" id="66E-Cu-UH0"/>
+                                    <segue destination="ztH-ci-MvE" kind="show" identifier="giardinoToData" id="MsS-US-hve"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="vfr-iM-fOO" firstAttribute="trailing" secondItem="EU4-hh-EDU" secondAttribute="trailing" constant="252" id="0Pp-Aa-T3v"/>
+                            <constraint firstItem="glX-iK-AzI" firstAttribute="top" secondItem="vfr-iM-fOO" secondAttribute="top" constant="87" id="0QD-Ik-tKt"/>
+                            <constraint firstItem="vfr-iM-fOO" firstAttribute="bottom" secondItem="glX-iK-AzI" secondAttribute="bottom" constant="415" id="2Z1-GK-cdI"/>
+                            <constraint firstItem="15o-ux-rYO" firstAttribute="top" secondItem="EU4-hh-EDU" secondAttribute="bottom" constant="8" id="GLA-oh-5zG"/>
+                            <constraint firstItem="vfr-iM-fOO" firstAttribute="bottom" secondItem="dNd-es-Ga3" secondAttribute="bottom" constant="147" id="JFl-JH-0fF"/>
+                            <constraint firstItem="dNd-es-Ga3" firstAttribute="leading" secondItem="15o-ux-rYO" secondAttribute="trailing" constant="13" id="JuD-rz-JiO"/>
+                            <constraint firstItem="EU4-hh-EDU" firstAttribute="top" secondItem="glX-iK-AzI" secondAttribute="bottom" constant="2" id="KXd-3b-dyO"/>
+                            <constraint firstItem="15o-ux-rYO" firstAttribute="top" secondItem="glX-iK-AzI" secondAttribute="bottom" constant="95" id="MPS-ll-VzI"/>
+                            <constraint firstItem="TD5-8G-C3u" firstAttribute="top" secondItem="0aH-qB-edC" secondAttribute="bottom" constant="8" id="NHk-tq-C6P"/>
+                            <constraint firstItem="0aH-qB-edC" firstAttribute="top" secondItem="vfr-iM-fOO" secondAttribute="top" constant="87" id="QXN-HA-SI3"/>
+                            <constraint firstItem="7AB-zL-Xgd" firstAttribute="trailing" secondItem="vfr-iM-fOO" secondAttribute="trailing" id="R4N-Y5-hUE"/>
+                            <constraint firstItem="vfr-iM-fOO" firstAttribute="bottom" secondItem="TD5-8G-C3u" secondAttribute="bottom" constant="231" id="STK-ep-muh"/>
+                            <constraint firstItem="LnO-2D-CIp" firstAttribute="top" secondItem="15o-ux-rYO" secondAttribute="bottom" constant="20" id="Sji-iL-chS"/>
+                            <constraint firstItem="glX-iK-AzI" firstAttribute="leading" secondItem="vfr-iM-fOO" secondAttribute="leading" constant="39" id="ZXG-5N-GkZ"/>
+                            <constraint firstItem="15o-ux-rYO" firstAttribute="leading" secondItem="vfr-iM-fOO" secondAttribute="leading" constant="39" id="ZaE-JA-GMS"/>
+                            <constraint firstItem="EU4-hh-EDU" firstAttribute="leading" secondItem="vfr-iM-fOO" secondAttribute="leading" constant="33" id="ZiU-CY-3Pu"/>
+                            <constraint firstItem="0aH-qB-edC" firstAttribute="leading" secondItem="glX-iK-AzI" secondAttribute="trailing" constant="8" id="anZ-JC-75e"/>
+                            <constraint firstItem="vfr-iM-fOO" firstAttribute="bottom" secondItem="LnO-2D-CIp" secondAttribute="bottom" constant="6" id="ax8-xu-S3V"/>
+                            <constraint firstItem="vfr-iM-fOO" firstAttribute="trailing" secondItem="dNd-es-Ga3" secondAttribute="trailing" constant="28" id="bJS-qp-8Uz"/>
+                            <constraint firstItem="vfr-iM-fOO" firstAttribute="bottom" secondItem="15o-ux-rYO" secondAttribute="bottom" constant="147" id="c8X-mP-FFN"/>
+                            <constraint firstItem="vfr-iM-fOO" firstAttribute="trailing" secondItem="glX-iK-AzI" secondAttribute="trailing" constant="168" id="cvG-iR-JJv"/>
+                            <constraint firstItem="TD5-8G-C3u" firstAttribute="leading" secondItem="glX-iK-AzI" secondAttribute="trailing" constant="8" id="f1F-Ao-eji"/>
+                            <constraint firstItem="7AB-zL-Xgd" firstAttribute="bottom" secondItem="vfr-iM-fOO" secondAttribute="bottom" id="fyt-Qj-N35"/>
+                            <constraint firstItem="vfr-iM-fOO" firstAttribute="trailing" secondItem="15o-ux-rYO" secondAttribute="trailing" constant="168" id="gwh-Tj-aGn"/>
+                            <constraint firstItem="vfr-iM-fOO" firstAttribute="trailing" secondItem="TD5-8G-C3u" secondAttribute="trailing" constant="28" id="h5D-Kn-OWM"/>
+                            <constraint firstItem="7AB-zL-Xgd" firstAttribute="leading" secondItem="vfr-iM-fOO" secondAttribute="leading" id="jFi-5r-Mx1"/>
+                            <constraint firstItem="dNd-es-Ga3" firstAttribute="top" secondItem="TD5-8G-C3u" secondAttribute="bottom" constant="13" id="lWp-Xr-wFD"/>
+                            <constraint firstItem="vfr-iM-fOO" firstAttribute="trailing" secondItem="0aH-qB-edC" secondAttribute="trailing" constant="28" id="p6o-l2-LMf"/>
+                            <constraint firstItem="vfr-iM-fOO" firstAttribute="bottom" secondItem="0aH-qB-edC" secondAttribute="bottom" constant="461" id="rNm-BO-hkJ"/>
+                            <constraint firstItem="7AB-zL-Xgd" firstAttribute="top" secondItem="vfr-iM-fOO" secondAttribute="top" id="rS7-uD-x83"/>
+                            <constraint firstItem="LnO-2D-CIp" firstAttribute="leading" secondItem="vfr-iM-fOO" secondAttribute="leading" constant="27" id="si9-NC-A6F"/>
+                            <constraint firstItem="vfr-iM-fOO" firstAttribute="trailing" secondItem="LnO-2D-CIp" secondAttribute="trailing" constant="28" id="zzI-fn-zLn"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="vfr-iM-fOO"/>
+                    </view>
+                    <connections>
+                        <outlet property="bagnoOutlet" destination="EU4-hh-EDU" id="Cvt-nl-J4f"/>
+                        <outlet property="cameraDaLettoOutlet" destination="15o-ux-rYO" id="rLY-ES-u8n"/>
+                        <outlet property="cameraDegliOspitiOutlet" destination="glX-iK-AzI" id="YH6-qy-laY"/>
+                        <outlet property="corridoioOutlet" destination="dNd-es-Ga3" id="plh-kI-2vJ"/>
+                        <outlet property="cucinaOutlet" destination="0aH-qB-edC" id="4W3-9M-18O"/>
+                        <outlet property="giardinoOutlet" destination="LnO-2D-CIp" id="K6D-7D-Ekh"/>
+                        <outlet property="salottoOutlet" destination="TD5-8G-C3u" id="bnk-hP-gqb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="USl-8E-33N" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3124" y="-1191"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="mapApp1" width="1242" height="2688"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="GpO-A8-iDU"/>
+        <segue reference="j18-IR-AYj"/>
+    </inferredMetricsTieBreakers>
+</document>

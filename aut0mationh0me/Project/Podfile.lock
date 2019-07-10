@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (4.8.2)
+  - AsyncSwift (2.0.4)
+  - Eureka (5.0.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.3)
+  - AsyncSwift
+  - Eureka
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - AsyncSwift
+    - Eureka
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  AsyncSwift: 65775a7b32e740609b24969ece3de58723b9dc3e
+  Eureka: 0f64f477ec8ef6201c6fec143d60ff5c201cf654
+
+PODFILE CHECKSUM: 4e32b048daeb0b4553cd79245bc877d56207f7e4
+
+COCOAPODS: 1.5.2
