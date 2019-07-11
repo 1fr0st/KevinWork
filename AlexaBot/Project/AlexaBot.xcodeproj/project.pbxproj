@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		431C4C6E2203542F005ABE5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431C4C6D2203542F005ABE5B /* AppDelegate.swift */; };
+		431C4C702203542F005ABE5B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431C4C6F2203542F005ABE5B /* ViewController.swift */; };
+		431C4C732203542F005ABE5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 431C4C712203542F005ABE5B /* Main.storyboard */; };
+		431C4C762203542F005ABE5B /* AlexaBot.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 431C4C742203542F005ABE5B /* AlexaBot.xcdatamodeld */; };
+		431C4C7822035432005ABE5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 431C4C7722035432005ABE5B /* Assets.xcassets */; };
+		431C4C7B22035432005ABE5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 431C4C7922035432005ABE5B /* LaunchScreen.storyboard */; };
+		431C4C8322037A65005ABE5B /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431C4C8222037A65005ABE5B /* ChatViewController.swift */; };
+		5557F826B2F8DE666C8481ED /* Pods_AlexaBot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CF2C6EB5C35FBC1A42E0ACF /* Pods_AlexaBot.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		08FD3EB29BEF1A6528D819D5 /* Pods-AlexaBot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlexaBot.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlexaBot/Pods-AlexaBot.release.xcconfig"; sourceTree = "<group>"; };
+		3CF2C6EB5C35FBC1A42E0ACF /* Pods_AlexaBot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlexaBot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		431C4C6A2203542F005ABE5B /* AlexaBot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlexaBot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		431C4C6D2203542F005ABE5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		431C4C6F2203542F005ABE5B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		431C4C722203542F005ABE5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		431C4C752203542F005ABE5B /* AlexaBot.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AlexaBot.xcdatamodel; sourceTree = "<group>"; };
+		431C4C7722035432005ABE5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		431C4C7A22035432005ABE5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		431C4C7C22035432005ABE5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		431C4C8222037A65005ABE5B /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		B6F428045DB606E88FDBCC02 /* Pods-AlexaBot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlexaBot.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlexaBot/Pods-AlexaBot.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		431C4C672203542F005ABE5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5557F826B2F8DE666C8481ED /* Pods_AlexaBot.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		431C4C612203542F005ABE5B = {
+			isa = PBXGroup;
+			children = (
+				431C4C6C2203542F005ABE5B /* AlexaBot */,
+				431C4C6B2203542F005ABE5B /* Products */,
+				61B755ACD0C987B99E742C53 /* Pods */,
+				6212FDB50623164B11E28A6B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		431C4C6B2203542F005ABE5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				431C4C6A2203542F005ABE5B /* AlexaBot.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		431C4C6C2203542F005ABE5B /* AlexaBot */ = {
+			isa = PBXGroup;
+			children = (
+				431C4C6D2203542F005ABE5B /* AppDelegate.swift */,
+				431C4C6F2203542F005ABE5B /* ViewController.swift */,
+				431C4C712203542F005ABE5B /* Main.storyboard */,
+				431C4C7722035432005ABE5B /* Assets.xcassets */,
+				431C4C7922035432005ABE5B /* LaunchScreen.storyboard */,
+				431C4C7C22035432005ABE5B /* Info.plist */,
+				431C4C742203542F005ABE5B /* AlexaBot.xcdatamodeld */,
+				431C4C8222037A65005ABE5B /* ChatViewController.swift */,
+			);
+			path = AlexaBot;
+			sourceTree = "<group>";
+		};
+		61B755ACD0C987B99E742C53 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B6F428045DB606E88FDBCC02 /* Pods-AlexaBot.debug.xcconfig */,
+				08FD3EB29BEF1A6528D819D5 /* Pods-AlexaBot.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6212FDB50623164B11E28A6B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3CF2C6EB5C35FBC1A42E0ACF /* Pods_AlexaBot.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		431C4C692203542F005ABE5B /* AlexaBot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 431C4C7F22035432005ABE5B /* Build configuration list for PBXNativeTarget "AlexaBot" */;
+			buildPhases = (
+				C3F3B7EB0EC199867B2351EA /* [CP] Check Pods Manifest.lock */,
+				431C4C662203542F005ABE5B /* Sources */,
+				431C4C672203542F005ABE5B /* Frameworks */,
+				431C4C682203542F005ABE5B /* Resources */,
+				6C4FC17E5C77C6867B9661D8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlexaBot;
+			productName = AlexaBot;
+			productReference = 431C4C6A2203542F005ABE5B /* AlexaBot.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		431C4C622203542F005ABE5B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "kevin ngadiuba";
+				TargetAttributes = {
+					431C4C692203542F005ABE5B = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 431C4C652203542F005ABE5B /* Build configuration list for PBXProject "AlexaBot" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 431C4C612203542F005ABE5B;
+			productRefGroup = 431C4C6B2203542F005ABE5B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				431C4C692203542F005ABE5B /* AlexaBot */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		431C4C682203542F005ABE5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				431C4C7B22035432005ABE5B /* LaunchScreen.storyboard in Resources */,
+				431C4C7822035432005ABE5B /* Assets.xcassets in Resources */,
+				431C4C732203542F005ABE5B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6C4FC17E5C77C6867B9661D8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AlexaBot/Pods-AlexaBot-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ApiAI/ApiAI.framework",
+				"${BUILT_PRODUCTS_DIR}/JSQMessagesViewController/JSQMessagesViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/JSQSystemSoundPlayer/JSQSystemSoundPlayer.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ApiAI.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQMessagesViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQSystemSoundPlayer.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlexaBot/Pods-AlexaBot-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3F3B7EB0EC199867B2351EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AlexaBot-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		431C4C662203542F005ABE5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				431C4C702203542F005ABE5B /* ViewController.swift in Sources */,
+				431C4C762203542F005ABE5B /* AlexaBot.xcdatamodeld in Sources */,
+				431C4C8322037A65005ABE5B /* ChatViewController.swift in Sources */,
+				431C4C6E2203542F005ABE5B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		431C4C712203542F005ABE5B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				431C4C722203542F005ABE5B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		431C4C7922035432005ABE5B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				431C4C7A22035432005ABE5B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		431C4C7D22035432005ABE5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		431C4C7E22035432005ABE5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		431C4C8022035432005ABE5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6F428045DB606E88FDBCC02 /* Pods-AlexaBot.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M2N7444KDJ;
+				INFOPLIST_FILE = AlexaBot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Hardfrost.AlexaBot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		431C4C8122035432005ABE5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08FD3EB29BEF1A6528D819D5 /* Pods-AlexaBot.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M2N7444KDJ;
+				INFOPLIST_FILE = AlexaBot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Hardfrost.AlexaBot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		431C4C652203542F005ABE5B /* Build configuration list for PBXProject "AlexaBot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				431C4C7D22035432005ABE5B /* Debug */,
+				431C4C7E22035432005ABE5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		431C4C7F22035432005ABE5B /* Build configuration list for PBXNativeTarget "AlexaBot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				431C4C8022035432005ABE5B /* Debug */,
+				431C4C8122035432005ABE5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		431C4C742203542F005ABE5B /* AlexaBot.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				431C4C752203542F005ABE5B /* AlexaBot.xcdatamodel */,
+			);
+			currentVersion = 431C4C752203542F005ABE5B /* AlexaBot.xcdatamodel */;
+			path = AlexaBot.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 431C4C622203542F005ABE5B /* Project object */;
+}
